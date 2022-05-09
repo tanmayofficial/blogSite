@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.navigation {
+  height: 74px;
+  background-color: rgb(3, 148, 80);
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-panel {
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+}
+.left-panel a {
+  font-size: 27px;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-weight: bolder;
+  text-shadow: -1px 1px yellow;
+}
+.center-panel {
+  display: flex;
+}
+.navigation .center-panel a {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+}
+.center-panel ul {
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+}
+.center-panel ul li {
+  list-style: none;
+  margin: 0 14px;
+}
+.center-panel ul li a {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+}
+.center-panel ul li a:hover {
+  color: yellow;
+}
+
+.right-panel {
+  margin-right: 50px;
+}
+.search-box {
+  padding: 4px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-right: 7px;
+  border: none;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.318);
+  color: yellow;
+}
+.content {
+  height: 395px;
+  background-color: rgba(229, 255, 0, 0.3);
+  display: flex;
+  justify-content: space-evenly;
+}
+/* .content::after{
+  content: "";
+  background-image: url('../allteams.jpg');
+  position:absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.15;
+} */
+.content-left {
+  width: 50%;
+}
+.content-left h1 {
+  padding-bottom: 25px;
+  font-weight: bold;
+  font-style: italic;
+}
+.content-left p {
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.8;
+  word-spacing: 10px;
+}
+.content-right {
+  display: flex;
+  align-items: center;
+}
+.content-right img {
+  width: 350px;
+  border: 1px solid black;
+}
+.line {
+  padding-bottom: 25px;
+}
+
+.all-articles {
+  background-color: rgba(229, 255, 0, 0.3);
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.6;
+  word-spacing: 3px;
+  display: block;
+}
+.all-articles .blogs-head {
+  text-align: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.all-articles h3 {
+  font-weight: bold;
+  font-size: 22px;
+}
+.all-articles a{
+  text-decoration: none;
+  color: black;
+}
+.article1 {
+  /* margin-left: 25px; */
+}
+.article1 img,
+.article2 img,
+.article3 img {
+  width: 350px;
+  height: 300px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+.recent-posts {
+  height: 395px;
+  background-color: rgba(229, 255, 0, 0.3);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer {
+  height: 70px;
+  background-color: rgb(3, 148, 80);
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
